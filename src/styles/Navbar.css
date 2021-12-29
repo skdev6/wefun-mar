@@ -1,0 +1,170 @@
+/* Header */
+
+p {
+    margin: 0;
+  }
+  
+  .clip-contents {
+    overflow: hidden;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-row-vcenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .flex-hend {
+    justify-content: flex-end;
+  }
+  
+  .flex-hcenter {
+    justify-content: center;
+  }
+  
+  .header {
+    padding: 19px 100px 19px 98px;
+    box-sizing: border-box;
+    background: linear-gradient(
+      90deg,
+      rgba(54, 8, 71, 1) 100%,
+      rgba(24, 7, 91, 1) 4.34%
+    );
+    width: 1440px;
+    height: 80px;
+  }
+  
+  .group-649 {
+    margin-right: 283px;
+    box-sizing: border-box;
+  }
+  
+  .bitmap {
+    width: 56px;
+    height: 30px;
+    margin-right: 60px;
+  }
+  
+  .txt-448 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    text-align: right;
+    width: 55px;
+    height: 20px;
+    word-wrap: break-word;
+    margin-right: 10px;
+  }
+  
+  .arrow-down-2 {
+    width: 10px;
+    height: 5px;
+    margin-right: 30px;
+  }
+  
+  .txt-017 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    text-align: right;
+    width: 48px;
+    height: 20px;
+    word-wrap: break-word;
+    margin-right: 10px;
+  }
+  
+  .arrow-down-3 {
+    width: 10px;
+    height: 5px;
+    margin-right: 30px;
+  }
+  
+  .txt-1011 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    width: 56px;
+    height: 20px;
+    word-wrap: break-word;
+    margin-right: 30px;
+  }
+  
+  .txt-996 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    width: 31px;
+    height: 20px;
+    word-wrap: break-word;
+    margin-right: 30px;
+  }
+  
+  .txt-447 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.84);
+    height: 20px;
+    word-wrap: break-word;
+  }
+  
+  .create-your-project {
+    padding: 8.5px 32.5px 10.5px 31.5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 33px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 193, 255, 1) 0%,
+      rgba(0, 193, 255, 0) 100%
+    );
+    border: 1.5px solid rgba(0, 163, 255, 1);
+    width: 15.9%;
+    height: 100%;
+  }
+  
+  .txt-684 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 130px;
+    height: 18px;
+    word-wrap: break-word;
+  }
+  
+  .connect-wallet {
+    padding: 8.5px 26.5px 8.5px 25.5px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: linear-gradient(
+      180deg,
+      rgba(254, 134, 0, 1) 0%,
+      rgba(254, 134, 0, 0) 100%
+    );
+    border: 1.5px solid rgba(254, 134, 0, 1);
+    width: 14%;
+    height: 100%;
+  }
+  
+  .txt-516 {
+    font-size: 15px;
+    font-family: Sk-Modernist, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    width: 119px;
+    height: 20px;
+    word-wrap: break-word;
+  }
+  

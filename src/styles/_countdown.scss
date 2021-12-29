@@ -1,0 +1,79 @@
+.progress {
+    width: 100%;
+    background: #10003a;
+    border: 1px solid #190259;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    .progress-bar {
+        &.special {
+            background: linear-gradient(
+                180deg,
+                #73ffc1 0%,
+                #3fffa4 50.52%,
+                #35e391 50.53%,
+                #00ff82 100%
+            );
+            border-radius: 36px;
+            color: #0e0034;
+        }
+
+        &.danger {
+            background: linear-gradient(
+                    92.8deg,
+                    rgba(255, 255, 255, 0.6) -1.42%,
+                    rgba(205, 21, 205, 0.318) 102.82%
+                ),
+                #ff36ff;
+            border-radius: 36px;
+            color: #0e0034;
+        }
+    }
+}
+.countdown-holder {
+    background: radial-gradient(#150050, #16005026, #350f6700);
+    padding: 5px 10px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 20px;
+    padding-top: 75px;
+    margin-top: -45px;
+}
+.countdown {
+    padding-top: 10px;
+    .title {
+        text-transform: uppercase;
+        margin: 0;
+        color: #ffffff94;
+    }
+    .time {
+        font-weight: 900;
+        font-size: 33px;
+        color: #ffffff;
+        text-shadow: 2px 2px 0px #00000061;
+        @media (max-width: 500px) {
+            font-size: 34px;
+        }
+    }
+    .time-low {
+        font-weight: normal;
+        font-size: 11px;
+        color: #ffffff;
+        opacity: 0.6;
+        margin-bottom: -10px;
+        text-transform: uppercase;
+    }
+    .spacer {
+        font-size: 32px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 57px;
+        @media (max-width: 500px) {
+            font-size: 34px;
+            line-height: 61px;
+        }
+    }
+}

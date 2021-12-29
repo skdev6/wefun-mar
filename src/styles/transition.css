@@ -1,0 +1,539 @@
+#rotateHandGo {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+#emailInnerBox {
+  width: 80%;
+  z-index: 5;
+  height: 350px;
+  display: flex;
+  padding: 70px 0;
+  align-self: center;
+  position: relative;
+  border-radius: 50px;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  background-image: url('/saft2.svg');
+}
+.projectTitle {
+  font-weight: 700;
+  font-size: 40px;
+}
+.projectDesc {
+  width: 75%;
+}
+.projectLabel {
+  font-size: 18px;
+}
+.projectItemContentCol {
+  width: 45%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectItemImageCol {
+  width: 50%;
+}
+#heroSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+#heroHeading {
+  z-index: 2;
+  font-size: 50px;
+  margin-top: 20px;
+  line-height: 70px;
+  position: relative;
+  font-weight: bolder;
+  text-align: center;
+  font-family: 'PilatExtended-Regular';
+}
+#heroLogo {
+  width: 350px;
+}
+.PROJECT_ITEMS_ROW {
+  width: 100%;
+  height: 450px;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  justify-content: space-between;
+}
+.EmailBg {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+}
+#starsBg {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#cloudBg {
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+#stageBg {
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#ArrowDownButton {
+  bottom: 5%;
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+#ArrowDownButton {
+  animation: rocket 0.8s infinite alternate;
+  -webkit-animation: rocket 0.8s infinite alternate;
+}
+
+#aboutSection {
+  z-index: 2;
+  position: relative;
+  flex-direction: column;
+  padding: 70px 115px;
+  font-family: 'Sk-Modernist-Regular';
+}
+
+#aboutFirstSection {
+  display: flex;
+  flex-direction: row;
+}
+
+#aboutSecondSection {
+  width: 100em;
+  height: 50em;
+  margin-top: 10em;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#swirlIdImg {
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+}
+
+#sphere {
+  width: 50%;
+  animation: sphere 1s infinite alternate;
+  -webkit-animation: sphere 1s infinite alternate;
+}
+
+#rocket {
+  animation: sphere 1s infinite alternate;
+  -webkit-animation: sphere 1s infinite alternate;
+}
+
+@-webkit-keyframes rocket {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+@-webkit-keyframes sphere {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(42px, 62px, -135px);
+  }
+}
+
+@keyframes sphere {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(42px, 62px, -135px);
+  }
+}
+
+#aboutSectionCircle {
+  top: 40%;
+  position: absolute;
+}
+#aboutSectionCircleImage {
+  width: 200px;
+}
+#aboutSectionTitle {
+  font-size: 30px;
+  margin-top: 10px;
+  line-height: 35px;
+}
+
+.circleAboutText {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+#YieldBenefit {
+  left: 17%;
+  bottom: 25%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#LowRisk {
+  top: 25%;
+  left: 17%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#SecureStable {
+  top: 0;
+  left: 33%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#GovernanceVoting {
+  top: 0;
+  right: 33%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#DeflationaryToken {
+  top: 25%;
+  right: 17%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#NFTMirror {
+  right: 17%;
+  bottom: 25%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#Section7 {
+  bottom: 0;
+  left: 33%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+#Section8 {
+  bottom: 0;
+  right: 33%;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline {
+  height: 100px;
+  border: 2px dashed white;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  color: #150047;
+  font-weight: bold;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  background-color: #fe8501;
+  font-family: 'PilatExtended-Regular';
+}
+
+.circleWrapper {
+  position: relative;
+}
+
+.message {
+  top: 0;
+  left: 130%;
+  min-width: 400px;
+  font-weight: bold;
+  position: absolute;
+}
+
+@media only screen and (min-width: 1500px) {
+  #aboutSecondSection {
+    width: 80em;
+    height: 50em;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #aboutSecondSection {
+    margin-top: 5em;
+  }
+  #YieldBenefit {
+    left: 0%;
+    bottom: 25%;
+  }
+  #LowRisk {
+    top: 25%;
+    left: 0%;
+  }
+  #SecureStable {
+    top: 0;
+    left: 23%;
+  }
+  #GovernanceVoting {
+    top: 0;
+    right: 23%;
+  }
+  #DeflationaryToken {
+    top: 25%;
+    right: 0%;
+  }
+  #NFTMirror {
+    right: 0%;
+    bottom: 25%;
+  }
+  #Section7 {
+    bottom: 0;
+    left: 23%;
+  }
+  #Section8 {
+    bottom: 0;
+    right: 23%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #sphere {
+    width: 40%;
+  }
+  #heroSection {
+    height: 80vh;
+  }
+  #heroHeading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  #heroLogo {
+    width: 25%;
+  }
+  #aboutSection {
+    padding: 68px;
+  }
+  #swirlIdImg {
+    top: 7%;
+  }
+  .PROJECT_ITEMS_ROW {
+    height: 350px;
+  }
+  .projectTitle {
+    font-size: 25px;
+  }
+  .projectDesc {
+    width: 100%;
+  }
+  .projectLabel {
+    font-size: 13px;
+  }
+  .projectItemContentCol {
+    width: 50%;
+  }
+  .projectItemImageCol {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #sphere {
+    display: none;
+  }
+  #heroSection {
+    height: 65vh;
+  }
+  #heroHeading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #heroLogo {
+    width: 30%;
+  }
+  #ArrowDownButton {
+    bottom: 2%;
+  }
+  #aboutSection {
+    padding: 68px 40px;
+  }
+  #swirlIdImg {
+    top: 15%;
+    width: 70%;
+  }
+
+  #aboutSecondSection {
+    height: 40em;
+  }
+  #YieldBenefit {
+    left: 0%;
+    bottom: 25%;
+    width: 140px;
+    height: 140px;
+  }
+  #LowRisk {
+    top: 25%;
+    left: 0%;
+    width: 140px;
+    height: 140px;
+  }
+  #SecureStable {
+    top: 0;
+    left: 22%;
+    width: 140px;
+    height: 140px;
+  }
+  #GovernanceVoting {
+    top: 0;
+    right: 22%;
+    width: 140px;
+    height: 140px;
+  }
+  #DeflationaryToken {
+    top: 25%;
+    right: 0%;
+    width: 140px;
+    height: 140px;
+  }
+  #NFTMirror {
+    right: 0%;
+    bottom: 25%;
+    width: 140px;
+    height: 140px;
+  }
+  #Section7 {
+    bottom: 0;
+    left: 22%;
+    width: 140px;
+    height: 140px;
+  }
+  #Section8 {
+    bottom: 0;
+    right: 22%;
+    width: 140px;
+    height: 140px;
+  }
+
+  #aboutSectionCircle {
+    top: 40%;
+    position: absolute;
+  }
+  #aboutSectionCircleImage {
+    width: 150px;
+  }
+  #aboutSectionTitle {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  .circleAboutText {
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+  .PROJECT_ITEMS_ROW {
+    height: 300px;
+  }
+  .projectTitle {
+    font-size: 30px;
+  }
+  .projectDesc {
+    width: 100%;
+  }
+  .projectLabel {
+    font-size: 15px;
+  }
+  .projectItemContentCol {
+    width: 100%;
+  }
+  .projectItemImageCol {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #heroSection {
+    height: 55vh;
+  }
+  #heroHeading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  #heroLogo {
+    width: 30%;
+  }
+  #ArrowDownButton {
+    bottom: 0;
+  }
+  #ArrowDownButtonImage {
+    width: 100px;
+  }
+  #aboutFirstSection {
+    flex-direction: column-reverse;
+  }
+  #aboutSection {
+    padding: 120px 40px 68px 40px;
+  }
+  #rocket {
+    right: 10%;
+    top: -100px;
+    width: 10em;
+    position: absolute;
+  }
+  #swirlIdImg {
+    top: 0;
+    width: 100%;
+  }
+}
